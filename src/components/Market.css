@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Griffy&family=Lobster&family=Marck+Script&family=Open+Sans:ital,wght@1,300&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+.topnews{
+  background-image: url(https://img.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_53876-135923.jpg?w=1060&t=st=1700279151~exp=1700279751~hmac=36655ed369a39f876cdd443ca1941fb98ee1718f5bff8791cd4811bfdb8f9f81);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    margin-top: 0px;
+    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.text{
+    font-size: larger;
+    color: aqua;
+
+}
+.new{
+    margin-left: 20px;
+}
+.financehead{
+    text-align: center;
+}
+/* Add this CSS in your component's CSS file or style tag */
+
+/* Container styles */
+
+  
+  /* Input and button styles */
+  input {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* Company information and news styles */
+  h1 {
+    color: blueviolet;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  
+  ul {
+    color: burlywood;
+
+    font-family: Dancing Script;;
+    font-size: larger;
+    font-weight: 900;
+  }
+  
+  li {
+    margin-bottom: 20px;
+ 
+    font-size: larger;
+    font-weight: 900;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media screen and (max-width: 600px) {
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+    li {
+        margin-bottom: 20px;
+        margin-left: 10px;
+      }
+  }
+  
