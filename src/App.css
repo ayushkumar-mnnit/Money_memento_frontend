@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.App{
+ min-height: 200vh;
+ 
+ background: linear-gradient(92deg, #080d06, #2781e6);
+ background-size: 400% 400%;
+
+ -webkit-animation: AnimationName 7s ease infinite;
+ -moz-animation: AnimationName 7s ease infinite;
+ -o-animation: AnimationName 7s ease infinite;
+ animation: AnimationName 7s ease infinite;
+ 
+
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:14% 0%}
+  50%{background-position:87% 100%}
+  100%{background-position:14% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:14% 0%}
+  50%{background-position:87% 100%}
+  100%{background-position:14% 0%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:14% 0%}
+  50%{background-position:87% 100%}
+  100%{background-position:14% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:14% 0%}
+  50%{background-position:87% 100%}
+  100%{background-position:14% 0%}
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
