@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+   height: 100px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  /* Brand/logo */
+  .navbar-brand {
+    /* Add styles for your logo or brand */
+  }
+  
+  /* Navigation links */
+  .navbar-nav {
+    margin-left: auto; /* Push nav links to the right */
+  }
+  
+  .nav-link {
+    color: white; /* Link text color */
+    margin: 0 15px; /* Adjust spacing between links */
+    font-weight: bold; /* Link font weight */
+  }
+  
+  /* Active link */
+  .nav-link.active {
+    color: yellow; /* Change color for active link */
+  }
+  
+  /* Toggle button icon */
+  .navbar-toggler-icon {
+    /* Style the toggle button icon if needed */
+  }
+  
+  /* Button styles */
+  .btn {
+    /* Customize button styles */
+    margin-left: 10px; /* Adjust button margin */
+  }
+  
+  /* Sticky navbar */
+  .navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .navbar-nav {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+      display: block; /* Make links stack vertically */
+      text-align: center; /* Center align links */
+    }
+  
+    /* Additional responsive styles as needed */
+  }
+  

@@ -1,0 +1,35 @@
+
+
+@media screen and (max-width: 600px) {
+    .table {
+   
+      margin-left: 0px;
+    }
+    .search-container{
+      margin-left: 18px;
+    }
+  }
+  .container{
+    margin-top: 1200px;
+  }
+  .row {
+    margin-top: 1000px;
+  }
+  .container{
+    margin-top: 994px;
+  }
+.heading{
+  font-family: cursive;
+}
+.modelbody{
+  color: rgb(4, 3, 0);
+}
+.formupdate{
+  background-color: rgb(172, 214, 4);
+}
+.form-control{
+  background-color: orange;
+}
+.bg-info{
+  background-color: blueviolet;
+}

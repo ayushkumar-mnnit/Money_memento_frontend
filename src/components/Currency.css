@@ -1,0 +1,53 @@
+/* CSS */
+/* Adjust styles as needed */
+
+.currency-container {
+  margin-top: 30px;
+border-radius: 2px;
+  background-color: bisque;
+  -webkit-box-shadow:0px 0px 105px 45px rgba(45,255,196,0.9);
+-moz-box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9);
+box-shadow: 0px 0px 105px 45px rgba(45,255,196,0.9);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select
+  {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  .result{
+    font-size: 2rem;
+    color: rgb(0, 9, 6);
+  }
+  .data{
+    margin-top: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .currency-container {
+      max-width: 300px;
+    }
+  }
+  .label{
+    text-align: center;
+  }
+  

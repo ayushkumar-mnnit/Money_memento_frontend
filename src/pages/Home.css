@@ -1,0 +1,11 @@
+.important{
+    -webkit-box-shadow:0px 0px 14px 36px rgba(255,46,217,0.9);
+-moz-box-shadow: 0px 0px 14px 36px rgba(255,46,217,0.9);
+box-shadow: 0px 0px 14px 36px rgba(255,46,217,0.9);
+margin-top: 100px;
+}
+.textimp{
+    -webkit-box-shadow:0px 0px 14px 17px rgba(255,227,46,0.85);
+    -moz-box-shadow: 0px 0px 14px 17px rgba(255,227,46,0.85);
+    box-shadow: 0px 0px 14px 17px rgba(255,227,46,0.85);
+}

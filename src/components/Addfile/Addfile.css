@@ -1,0 +1,54 @@
+/* Addfile.css */
+
+/* Styles for the container */
+
+  /* Styles for the image */
+  .img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the wrapper */
+  .wrapper {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the heading and paragraph */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the upload button */
+ 
+  
+  /* Styles for the link */
+  a {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  button svg {
+    /* Adjust icon size and color */
+    width: 20px;
+    height: 20px;
+    color: #111; /* Icon color */
+  }
