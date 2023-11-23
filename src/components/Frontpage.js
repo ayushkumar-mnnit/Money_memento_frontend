@@ -94,7 +94,7 @@ const Homepage = (props) => {
                     <span className="icon">
                       <i className="fa fa-universal-access" />
                     </span>
-                    <span className="title">Add Plan</span>
+                    <span className="title">Plan your Transaction</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"
@@ -127,7 +127,7 @@ const Homepage = (props) => {
                     <span className="icon">
                       <i className="fa fa-bullseye" />
                     </span>
-                    <span className="title">Your Bill Page</span>
+                    <span className="title">Download your Transaction History</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"

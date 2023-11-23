@@ -13,7 +13,7 @@ import ScrollableChat from './Chatstruct/ScrollableChat';
 import UpdateGroupChatModal from './UpdateGroupModel';
 import { ChatState } from './../Context/ChatProvider';
 import { getSender, getSenderFull } from './../Configue/ChatLogics';
-const ENDPOINT="http://localhost:8080";
+const ENDPOINT="https://servermmw.onrender.com";
 var socket,selectedChatCompare
 
 
