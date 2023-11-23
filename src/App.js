@@ -28,6 +28,10 @@ import { Toppage } from './components/Toppage';
 import Currency from './components/Currency';
 import { Textimonial } from './components/Textimonial';
 import Recipt from './components/Recipt/Recipt';
+<<<<<<< Updated upstream
+=======
+import { ChatState } from './Context/ChatProvider';
+>>>>>>> Stashed changes
 
 
 
