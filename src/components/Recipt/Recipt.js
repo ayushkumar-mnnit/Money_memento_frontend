@@ -4,10 +4,11 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import './Recipt.css';
 import Piechart from './../Chart/Piechart';
+import { ChatState } from '../../Context/ChatProvider';
 
 const Recipt = () => {
   const context = useContext(noteContext);
-  const { notes, getNotes } = context;
+  const { notes, getNotes, loading } = context;
   const pdfref = useRef(null);
 
   // Function to format the date to "dd month yyyy" format
@@ -53,35 +54,46 @@ const Recipt = () => {
     // Fetch notes when the component mounts
     getNotes();
   }, [getNotes]);
+  
+  const { user } = ChatState();
 
   return (
     <div className="invoice-container" ref={pdfref}>
-      <h1 className='recipant'>Invoice</h1>
-      <table className="invoice-table">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Expenses</th>
-            <th>Bill</th>
-            <th>Prices</th>
-          </tr>
-        </thead>
-        <tbody className='tbody'>
-          {notes.map((note) => (
-            <tr key={note._id}>
-              <td>{formatDate(note.date)}</td>
-              <td>{note.username}</td>
-              <td>{note.inemail}</td>
-              <td>{note.phone}</td>
-            </tr>
-          ))}
-        </tbody>
-       
-      </table>
-      {/* The button is excluded from PDF generation */}
-      <button className="button" onClick={downloadpdf}>
-        Download invoice
-      </button>
+      {loading ? (
+        <h1 className='recipant'>Loading...</h1>
+      ) : (
+        <>
+          <h4 className='user'>Transaction Done By </h4>
+          <h5>{user?.name}</h5>
+          <h5>{user?.email}</h5>
+          <h1 className='recipant'>Your Transaction History</h1>
+      
+          <table className="invoice-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Expenses</th>
+                <th>Bill</th>
+                <th>Prices</th>
+              </tr>
+            </thead>
+            <tbody className='tbody'>
+              {notes.map((note) => (
+                <tr key={note._id}>
+                  <td>{formatDate(note.date)}</td>
+                  <td>{note.username}</td>
+                  <td>{note.inemail}</td>
+                  <td>{note.phone}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {/* The button is excluded from PDF generation */}
+          <button className="button-56" onClick={downloadpdf}>
+            Download  Transaction History
+          </button>
+        </>
+      )}
     </div>
   );
 };

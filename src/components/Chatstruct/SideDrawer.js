@@ -125,7 +125,7 @@ const accessChat=async(userId)=>{
         </Box>
 
         <Text fontSize="2xl" fontFamily="Work Sans" textAlign="center">
-          BHARAT CHAT
+          Hii 💜{user.name} Split Your Expenses 
         </Text>
         <Menu>
           <MenuButton p={1}>

@@ -63,14 +63,14 @@ const MyChats = ({fetchAgain}) => {
         justifyContent="space-between"
         alignItems="center"
       >
-        My Chats
+        My Chat Record
         <GroupChatModal>
           <Button
             d="flex"
             fontSize={{ base: "17px", md: "5px", lg: "10px", mr: "10" }}
             rightIcon={<AddIcon />}
           >
-            <h4>Group Chat</h4>
+            <h6>Create Group To split Your Expense</h6>
           </Button>
         </GroupChatModal>
       </Box>

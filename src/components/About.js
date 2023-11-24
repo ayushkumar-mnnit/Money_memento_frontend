@@ -21,7 +21,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-          Complete Transaaction in different Currency
+        Add Your Transaction
           
         </div>
         
@@ -31,8 +31,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-       All kind of Bill managment Page 
-       with proper notification
+      Perform complete update and delete operation 
         </div>
       
       </a>
@@ -41,7 +40,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-            Chat page for all payment simplicity
+          Obtain your Data in sorted with Date form
         
         </div>
        
@@ -51,7 +50,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-            for view issue we have proper dark and night mode 
+          Search Your Data by Expenses
         </div>
       
       </a>
@@ -60,7 +59,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-            Your payment chart graph and other information
+           Add your Expenses in diffrent Currency
         </div>
        
       </a>
@@ -69,7 +68,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+        Download pdf of each expenses
         </div>
       </a>
     </div>
@@ -77,7 +76,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+       See Line chart pie chart and bar chart of your expenses
         </div>
       </a>
     </div>
@@ -85,7 +84,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+Download your Transaction Recipt
         </div>
       </a>
     </div>
@@ -93,7 +92,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+       Current Market Data
         </div>
       </a>
     </div>
@@ -101,7 +100,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+         Split your Expenses among friends
         </div>
       </a>
     </div>
@@ -109,7 +108,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+        Create a Group Expenses 
         </div>
       </a>
     </div>
@@ -117,7 +116,7 @@ const About = () => {
       <a href="#" className="ag-courses-item_link">
         <div className="ag-courses-item_bg" />
         <div className="ag-courses-item_title">
-         Payment managment page for your simplicity
+       Proper Notification
         </div>
       </a>
     </div>

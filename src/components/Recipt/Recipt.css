@@ -1,4 +1,10 @@
 .invoice-container {
+  -webkit-box-shadow:0px 0px 14px 36px rgba(248, 255, 46, 0.9);
+  -moz-box-shadow: 0px 0px 14px 36px rgba(255, 255, 46, 0.9);
+  box-shadow: 0px 0px 14px 36px rgba(231, 255, 46, 0.9);
+  margin-top: 100px;
+  border-radius: 10px;
+  background-color: aqua;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
@@ -6,11 +12,12 @@
     font-family: Arial, sans-serif;
   }
   .tbody{
-    background-color: antiquewhite;
+    background-color: rgb(215, 246, 250);
   }
   
-  .recipant{
+  .recipant,h1,h4,h5{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
   }
   .invoice-table {
     width: 100%;
@@ -45,4 +52,6 @@
   .button:hover {
     background-color: #0056b3;
   }
-  
+  .add{
+    margin-top: 100px;
+  }

@@ -21,7 +21,9 @@ const Chatbox = ({ fetchAgain, setFetchAgain }) => {
       borderWidth="1px"
     >
       <SingleChat fetchAgain={fetchAgain} setFetchAgain={setFetchAgain} />
+      <div className="add">
       <Addfile/>
+      </div>
     </Box>
   );
 };

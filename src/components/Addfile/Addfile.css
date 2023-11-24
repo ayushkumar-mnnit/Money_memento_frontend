@@ -1,54 +1,73 @@
 /* Addfile.css */
 
-/* Styles for the container */
+/* Main wrapper */
+.wrapper {
+  -webkit-box-shadow:0px 0px 14px 36px rgba(46, 255, 255, 0.9);
+  -moz-box-shadow: 0px 0px 14px 36px rgba(46, 213, 255, 0.9);
+  box-shadow: 0px 0px 14px 36px rgba(46, 241, 255, 0.9);
+  border-radius: 10px;
+  background-color: bisque;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
-  /* Styles for the image */
-  .img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  /* Styles for the wrapper */
-  .wrapper {
-    margin-top: 30px;
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Styles for the heading and paragraph */
-  h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 20px;
-  }
-  
-  /* Styles for the upload button */
- 
-  
-  /* Styles for the link */
-  a {
-    display: block;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  button svg {
-    /* Adjust icon size and color */
-    width: 20px;
-    height: 20px;
-    color: #111; /* Icon color */
-  }
+/* Title */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Upload button */
+.button-56 {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-56:hover {
+  background-color: #83db1f;
+}
+
+/* File input */
+input[type="file"] {
+  display: none;
+}
+
+/* Result link */
+a {
+  display: block;
+  margin-top: 20px;
+  word-break: break-all;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Copy button */
+button {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+button:hover {
+  color: #007bff;
+}

@@ -94,7 +94,7 @@ const Homepage = (props) => {
                     <span className="icon">
                       <i className="fa fa-universal-access" />
                     </span>
-                    <span className="title">Add Plan</span>
+                    <span className="title">Add your Expenses</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"
@@ -127,7 +127,40 @@ const Homepage = (props) => {
                     <span className="icon">
                       <i className="fa fa-bullseye" />
                     </span>
-                    <span className="title">Your Bill Page</span>
+                    <span className="title">Expensed History</span>
+                  </span>
+                  <svg
+                    viewBox="0 0 173.20508075688772 200"
+                    height={200}
+                    width={174}
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
+                      fill="#1e2530"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div className="hexagon-item">
+                <div className="hex-item">
+                  <div />
+                  <div />
+                  <div />
+                </div>
+                <div className="hex-item">
+                  <div />
+                  <div />
+                  <div />
+                </div>
+                <a className="hex-content"
+                onClick={switchtoaddfile}>
+                  <span className="hex-content-inner">
+                    <span className="icon">
+                      <i className="fa fa-braille" />
+                    </span>
+                    <span className="title">Storing EFile</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"
@@ -158,42 +191,9 @@ const Homepage = (props) => {
                 onClick={switchtoMarket}>
                   <span className="hex-content-inner">
                     <span className="icon">
-                      <i className="fa fa-braille" />
-                    </span>
-                    <span className="title">Current Market</span>
-                  </span>
-                  <svg
-                    viewBox="0 0 173.20508075688772 200"
-                    height={200}
-                    width={174}
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z"
-                      fill="#1e2530"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div className="hexagon-item">
-                <div className="hex-item">
-                  <div />
-                  <div />
-                  <div />
-                </div>
-                <div className="hex-item">
-                  <div />
-                  <div />
-                  <div />
-                </div>
-                <a className="hex-content"
-                onClick={switchtoChatpage}>
-                  <span className="hex-content-inner">
-                    <span className="icon">
                       <i className="fa fa-id-badge" />
                     </span>
-                    <span className="title">friend Transaaction</span>
+                    <span className="title">Current Market</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"
@@ -221,13 +221,13 @@ const Homepage = (props) => {
                   <div />
                   <div />
                 </div>
-                <a  onClick={switchtoaddfile} className="hex-content"
+                <a  onClick={switchtoChatpage} className="hex-content"
               >
                   <span className="hex-content-inner">
                     <span className="icon">
                       <i className="fa fa-life-ring" />
                     </span>
-                    <span  className="title">Add your Recipt</span>
+                    <span  className="title">Sharing E Expenses</span>
                   </span>
                   <svg
                     viewBox="0 0 173.20508075688772 200"

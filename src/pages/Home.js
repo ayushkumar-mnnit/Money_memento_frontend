@@ -54,8 +54,8 @@ function Homepage() {
         bg='white' w="100%" p={4} borderRadius="lg" borderWidth="1px">
           <Tabs isFitted variant="soft-rounded">
             <TabList mb="1em">
-              <Tab>LOGIN TO CHAT</Tab>
-              <Tab>REGISTER TO CHAT</Tab>
+              <Tab>LOGIN</Tab>
+              <Tab>REGISTER </Tab>
             </TabList>
             <TabPanels>
               <TabPanel>

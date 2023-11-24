@@ -17,21 +17,21 @@ export const Textimonial = () => {
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" alt='user' />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 1</h4>
+                            <p>"Incredibly efficient! This platform simplifies my financial life like nothing else. From tracking my expenses to analyzing trends, it's my go-to for staying on top of my finances effortlessly."</p>
+                            <h4>💙</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" alt='user' /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 2</h4>
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" alt='user' /><p>"I can't recommend this website enough! It's a game-changer for managing group expenses. Splitting bills among friends has never been easier. Plus, the ability to download transaction records and receipts is a lifesaver!"</p>
+                            <h4>💚</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" alt='user' />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 3</h4>
+                            <p>"Finally found a comprehensive solution for managing transactions! This website does it all - from seamlessly adding transactions to generating insightful charts for a clear financial overview. It's become my indispensable tool for maintaining a healthy financial balance.""</p>
+                            <h4>💛</h4>
                         </div>
                     </div>
                 </div>
