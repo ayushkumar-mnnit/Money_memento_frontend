@@ -70,9 +70,7 @@ https://drive.google.com/file/d/1p9Svor1dMtCimB9SE14vzwNALhwQaaa2/view
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
-   ```
+   git clone <https://github.com/ayushkumar-mnnit/Money_memento_frontend.git>
 
 2. **Install Dependencies**
    ```bash
