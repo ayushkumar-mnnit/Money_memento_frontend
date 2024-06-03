@@ -13,6 +13,11 @@ https://drive.google.com/file/d/1p9Svor1dMtCimB9SE14vzwNALhwQaaa2/view
 ### **User Account Management**
 
 - **🔐 Register & Login:** Secure and easy user registration and login.
+- ![lp](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/a0733fcd-51db-4605-a3cd-8544bc2fd0c4)
+-![wp](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/76e96294-e203-4ddc-a832-872a5be3c471)
+- ![ap](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/29bf295b-8f66-4510-8f1c-f977290442b4)
+
+
 - **💳 Daily Transaction Management:** Add, update, and delete daily transactions with CRUD operations.
 - **🌍 Multi-Currency Support:** Add transactions in different currencies.
 
@@ -20,6 +25,12 @@ https://drive.google.com/file/d/1p9Svor1dMtCimB9SE14vzwNALhwQaaa2/view
 
 - **📈 Transaction Reports:** Visualize your financial data through graphs and charts.
 - **📉 Detailed Analytics:** Gain insights into your spending habits and financial health.
+- ![bili](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/2671c35e-4537-434e-988f-011ee8dbf2fc)
+- ![tp](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/c5aa4029-94e8-4923-864d-01f5ca1398dd)
+- ![flp](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/4e846a74-e25a-4bb3-9be4-f0f02a8afc57)
+
+
+
 
 ### **📰 News and Updates**
 
@@ -31,13 +42,20 @@ https://drive.google.com/file/d/1p9Svor1dMtCimB9SE14vzwNALhwQaaa2/view
 - **🔀 Split Transactions:** Split your transactions with friends seamlessly.
 - **💬 Chat Functionality:** Engage in single and group chats with features similar to WhatsApp.
 - **👥 Group Chat:** Create and manage group chats for collaborative financial discussions.
+- ![ch](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/8886501c-0fd3-4e6d-9121-e831d60d291c)
+- ![cj](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/e19d438f-e80d-488e-846e-2ea94f201eb6)
+- ![gp](https://github.com/ayushkumar-mnnit/Money_memento_frontend/assets/123785384/a29a1f04-38fb-4152-879b-1cbdca0ddf2a)
+
+
+
 
 ### **⚡ Advanced UI**
 
 - **💎 Modern Design:** A sleek and modern interface using Chakra UI and Bootstrap.
 - **📱 Responsive Layout:** Fully responsive design for an optimal experience on any device.
 
----
+-![Uploading fp.PNG…]()
+
 
 ## **🛠️ Technology Stack**
 
